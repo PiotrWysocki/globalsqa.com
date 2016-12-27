@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="18" passed="18">
+<testng-results skipped="0" failed="0" total="54" passed="54">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="305609" started-at="2016-12-27T07:47:12Z" finished-at="2016-12-27T07:52:18Z">
+  <suite name="Suite" duration-ms="611567" started-at="2016-12-27T18:42:00Z" finished-at="2016-12-27T18:52:12Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="127111" started-at="2016-12-27T07:47:12Z" finished-at="2016-12-27T07:49:19Z">
+    <test name="FirefoxTest" duration-ms="239542" started-at="2016-12-27T18:42:00Z" finished-at="2016-12-27T18:46:00Z">
       <class name="tests.TestMultiForm">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeClass" is-config="true" duration-ms="34" started-at="2016-12-27T08:47:12Z" finished-at="2016-12-27T08:47:12Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="beforeClass" is-config="true" duration-ms="16" started-at="2016-12-27T19:42:00Z" finished-at="2016-12-27T19:42:00Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="38660" started-at="2016-12-27T08:47:12Z" finished-at="2016-12-27T08:47:51Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="beforeMethod" is-config="true" duration-ms="9418" started-at="2016-12-27T19:42:00Z" finished-at="2016-12-27T19:42:09Z">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="3653" started-at="2016-12-27T08:47:51Z" finished-at="2016-12-27T08:47:55Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="testMultiForm" duration-ms="3292" started-at="2016-12-27T19:42:09Z" finished-at="2016-12-27T19:42:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="4568" started-at="2016-12-27T08:47:55Z" finished-at="2016-12-27T08:47:59Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="afterMethod" is-config="true" duration-ms="2271" started-at="2016-12-27T19:42:13Z" finished-at="2016-12-27T19:42:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="12517" started-at="2016-12-27T08:47:59Z" finished-at="2016-12-27T08:48:12Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="beforeMethod" is-config="true" duration-ms="8650" started-at="2016-12-27T19:42:15Z" finished-at="2016-12-27T19:42:24Z">
           <params>
             <param index="0">
               <value>
@@ -48,15 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="3188" started-at="2016-12-27T08:48:12Z" finished-at="2016-12-27T08:48:15Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="testMultiForm" duration-ms="2837" started-at="2016-12-27T19:42:24Z" finished-at="2016-12-27T19:42:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2214" started-at="2016-12-27T08:48:15Z" finished-at="2016-12-27T08:48:17Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="afterMethod" is-config="true" duration-ms="1970" started-at="2016-12-27T19:42:26Z" finished-at="2016-12-27T19:42:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="10557" started-at="2016-12-27T08:48:17Z" finished-at="2016-12-27T08:48:28Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="beforeMethod" is-config="true" duration-ms="8253" started-at="2016-12-27T19:42:28Z" finished-at="2016-12-27T19:42:37Z">
           <params>
             <param index="0">
               <value>
@@ -67,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="2682" started-at="2016-12-27T08:48:28Z" finished-at="2016-12-27T08:48:30Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="testMultiForm" duration-ms="2997" started-at="2016-12-27T19:42:37Z" finished-at="2016-12-27T19:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2149" started-at="2016-12-27T08:48:30Z" finished-at="2016-12-27T08:48:33Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="afterMethod" is-config="true" duration-ms="1858" started-at="2016-12-27T19:42:40Z" finished-at="2016-12-27T19:42:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="12476" started-at="2016-12-27T08:48:33Z" finished-at="2016-12-27T08:48:45Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="beforeMethod" is-config="true" duration-ms="8923" started-at="2016-12-27T19:42:42Z" finished-at="2016-12-27T19:42:50Z">
           <params>
             <param index="0">
               <value>
@@ -86,15 +86,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="2676" started-at="2016-12-27T08:48:45Z" finished-at="2016-12-27T08:48:48Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="testMultiForm" duration-ms="2508" started-at="2016-12-27T19:42:50Z" finished-at="2016-12-27T19:42:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2321" started-at="2016-12-27T08:48:48Z" finished-at="2016-12-27T08:48:50Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="afterMethod" is-config="true" duration-ms="2041" started-at="2016-12-27T19:42:53Z" finished-at="2016-12-27T19:42:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="9434" started-at="2016-12-27T08:48:50Z" finished-at="2016-12-27T08:48:59Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="beforeMethod" is-config="true" duration-ms="8404" started-at="2016-12-27T19:42:55Z" finished-at="2016-12-27T19:43:03Z">
           <params>
             <param index="0">
               <value>
@@ -105,15 +105,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="2958" started-at="2016-12-27T08:48:59Z" finished-at="2016-12-27T08:49:02Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="testMultiForm" duration-ms="2820" started-at="2016-12-27T19:43:03Z" finished-at="2016-12-27T19:43:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2206" started-at="2016-12-27T08:49:02Z" finished-at="2016-12-27T08:49:05Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="afterMethod" is-config="true" duration-ms="1969" started-at="2016-12-27T19:43:06Z" finished-at="2016-12-27T19:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="10038" started-at="2016-12-27T08:49:05Z" finished-at="2016-12-27T08:49:15Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="beforeMethod" is-config="true" duration-ms="8549" started-at="2016-12-27T19:43:08Z" finished-at="2016-12-27T19:43:17Z">
           <params>
             <param index="0">
               <value>
@@ -124,19 +124,271 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="2714" started-at="2016-12-27T08:49:15Z" finished-at="2016-12-27T08:49:17Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="testMultiForm" duration-ms="2660" started-at="2016-12-27T19:43:17Z" finished-at="2016-12-27T19:43:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2020" started-at="2016-12-27T08:49:17Z" finished-at="2016-12-27T08:49:19Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6f7fd0e6]" name="afterMethod" is-config="true" duration-ms="2031" started-at="2016-12-27T19:43:19Z" finished-at="2016-12-27T19:43:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.TestMultiForm -->
+      <class name="tests.TestWebTable">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-12-27T19:43:21Z" finished-at="2016-12-27T19:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="10133" started-at="2016-12-27T19:43:21Z" finished-at="2016-12-27T19:43:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByFirstName" duration-ms="784" started-at="2016-12-27T19:43:32Z" finished-at="2016-12-27T19:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2025" started-at="2016-12-27T19:43:32Z" finished-at="2016-12-27T19:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="11150" started-at="2016-12-27T19:43:34Z" finished-at="2016-12-27T19:43:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByFirstName" duration-ms="878" started-at="2016-12-27T19:43:46Z" finished-at="2016-12-27T19:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2035" started-at="2016-12-27T19:43:46Z" finished-at="2016-12-27T19:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="10371" started-at="2016-12-27T19:43:49Z" finished-at="2016-12-27T19:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByFirstName" duration-ms="479" started-at="2016-12-27T19:43:59Z" finished-at="2016-12-27T19:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="1975" started-at="2016-12-27T19:43:59Z" finished-at="2016-12-27T19:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="10322" started-at="2016-12-27T19:44:01Z" finished-at="2016-12-27T19:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByFirstName" duration-ms="796" started-at="2016-12-27T19:44:12Z" finished-at="2016-12-27T19:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="1828" started-at="2016-12-27T19:44:12Z" finished-at="2016-12-27T19:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="9998" started-at="2016-12-27T19:44:14Z" finished-at="2016-12-27T19:44:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByFirstName" duration-ms="763" started-at="2016-12-27T19:44:24Z" finished-at="2016-12-27T19:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2017" started-at="2016-12-27T19:44:25Z" finished-at="2016-12-27T19:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="10114" started-at="2016-12-27T19:44:27Z" finished-at="2016-12-27T19:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByFirstName" duration-ms="843" started-at="2016-12-27T19:44:37Z" finished-at="2016-12-27T19:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2024" started-at="2016-12-27T19:44:38Z" finished-at="2016-12-27T19:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="11591" started-at="2016-12-27T19:44:40Z" finished-at="2016-12-27T19:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByLastName" duration-ms="675" started-at="2016-12-27T19:44:52Z" finished-at="2016-12-27T19:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2802" started-at="2016-12-27T19:44:52Z" finished-at="2016-12-27T19:44:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="11570" started-at="2016-12-27T19:44:55Z" finished-at="2016-12-27T19:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByLastName" duration-ms="433" started-at="2016-12-27T19:45:07Z" finished-at="2016-12-27T19:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2256" started-at="2016-12-27T19:45:07Z" finished-at="2016-12-27T19:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="9838" started-at="2016-12-27T19:45:09Z" finished-at="2016-12-27T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByLastName" duration-ms="609" started-at="2016-12-27T19:45:19Z" finished-at="2016-12-27T19:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="1893" started-at="2016-12-27T19:45:20Z" finished-at="2016-12-27T19:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="9409" started-at="2016-12-27T19:45:22Z" finished-at="2016-12-27T19:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByLastName" duration-ms="765" started-at="2016-12-27T19:45:31Z" finished-at="2016-12-27T19:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2018" started-at="2016-12-27T19:45:32Z" finished-at="2016-12-27T19:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="9809" started-at="2016-12-27T19:45:34Z" finished-at="2016-12-27T19:45:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByLastName" duration-ms="539" started-at="2016-12-27T19:45:44Z" finished-at="2016-12-27T19:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2029" started-at="2016-12-27T19:45:44Z" finished-at="2016-12-27T19:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="10446" started-at="2016-12-27T19:45:46Z" finished-at="2016-12-27T19:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="testSearchByLastName" duration-ms="678" started-at="2016-12-27T19:45:57Z" finished-at="2016-12-27T19:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2095" started-at="2016-12-27T19:45:57Z" finished-at="2016-12-27T19:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestWebTable -->
     </test> <!-- FirefoxTest -->
-    <test name="ChromeTest" duration-ms="83046" started-at="2016-12-27T07:49:20Z" finished-at="2016-12-27T07:50:43Z">
+    <test name="ChromeTest" duration-ms="182550" started-at="2016-12-27T18:46:00Z" finished-at="2016-12-27T18:49:02Z">
       <class name="tests.TestMultiForm">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-12-27T08:49:20Z" finished-at="2016-12-27T08:49:20Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@1a968a59]" name="beforeMethod" is-config="true" duration-ms="7745" started-at="2016-12-27T19:46:00Z" finished-at="2016-12-27T19:46:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@1a968a59]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-12-27T19:46:00Z" finished-at="2016-12-27T19:46:00Z">
           <params>
             <param index="0">
               <value>
@@ -147,26 +399,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="18679" started-at="2016-12-27T08:49:20Z" finished-at="2016-12-27T08:49:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="5207" started-at="2016-12-27T08:49:38Z" finished-at="2016-12-27T08:49:44Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="testMultiForm" duration-ms="3376" started-at="2016-12-27T19:46:07Z" finished-at="2016-12-27T19:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1527" started-at="2016-12-27T08:49:44Z" finished-at="2016-12-27T08:49:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="afterMethod" is-config="true" duration-ms="1215" started-at="2016-12-27T19:46:11Z" finished-at="2016-12-27T19:46:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="6507" started-at="2016-12-27T08:49:45Z" finished-at="2016-12-27T08:49:52Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@1a968a59]" name="beforeMethod" is-config="true" duration-ms="4881" started-at="2016-12-27T19:46:12Z" finished-at="2016-12-27T19:46:17Z">
           <params>
             <param index="0">
               <value>
@@ -177,15 +418,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3917" started-at="2016-12-27T08:49:52Z" finished-at="2016-12-27T08:49:55Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="testMultiForm" duration-ms="4120" started-at="2016-12-27T19:46:17Z" finished-at="2016-12-27T19:46:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1307" started-at="2016-12-27T08:49:55Z" finished-at="2016-12-27T08:49:57Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="afterMethod" is-config="true" duration-ms="1371" started-at="2016-12-27T19:46:21Z" finished-at="2016-12-27T19:46:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="5489" started-at="2016-12-27T08:49:57Z" finished-at="2016-12-27T08:50:02Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@1a968a59]" name="beforeMethod" is-config="true" duration-ms="5587" started-at="2016-12-27T19:46:22Z" finished-at="2016-12-27T19:46:28Z">
           <params>
             <param index="0">
               <value>
@@ -196,15 +437,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3882" started-at="2016-12-27T08:50:02Z" finished-at="2016-12-27T08:50:06Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="testMultiForm" duration-ms="2990" started-at="2016-12-27T19:46:28Z" finished-at="2016-12-27T19:46:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1537" started-at="2016-12-27T08:50:06Z" finished-at="2016-12-27T08:50:08Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="afterMethod" is-config="true" duration-ms="1162" started-at="2016-12-27T19:46:31Z" finished-at="2016-12-27T19:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="5698" started-at="2016-12-27T08:50:08Z" finished-at="2016-12-27T08:50:13Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@1a968a59]" name="beforeMethod" is-config="true" duration-ms="6223" started-at="2016-12-27T19:46:32Z" finished-at="2016-12-27T19:46:38Z">
           <params>
             <param index="0">
               <value>
@@ -215,15 +456,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3602" started-at="2016-12-27T08:50:13Z" finished-at="2016-12-27T08:50:17Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="testMultiForm" duration-ms="2788" started-at="2016-12-27T19:46:38Z" finished-at="2016-12-27T19:46:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1404" started-at="2016-12-27T08:50:17Z" finished-at="2016-12-27T08:50:18Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="afterMethod" is-config="true" duration-ms="1135" started-at="2016-12-27T19:46:41Z" finished-at="2016-12-27T19:46:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="6687" started-at="2016-12-27T08:50:18Z" finished-at="2016-12-27T08:50:25Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@1a968a59]" name="beforeMethod" is-config="true" duration-ms="5134" started-at="2016-12-27T19:46:42Z" finished-at="2016-12-27T19:46:47Z">
           <params>
             <param index="0">
               <value>
@@ -234,15 +475,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3942" started-at="2016-12-27T08:50:25Z" finished-at="2016-12-27T08:50:29Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="testMultiForm" duration-ms="4507" started-at="2016-12-27T19:46:47Z" finished-at="2016-12-27T19:46:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1501" started-at="2016-12-27T08:50:29Z" finished-at="2016-12-27T08:50:31Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="afterMethod" is-config="true" duration-ms="1317" started-at="2016-12-27T19:46:52Z" finished-at="2016-12-27T19:46:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="6937" started-at="2016-12-27T08:50:31Z" finished-at="2016-12-27T08:50:37Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@1a968a59]" name="beforeMethod" is-config="true" duration-ms="4886" started-at="2016-12-27T19:46:53Z" finished-at="2016-12-27T19:46:58Z">
           <params>
             <param index="0">
               <value>
@@ -253,19 +494,260 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3988" started-at="2016-12-27T08:50:37Z" finished-at="2016-12-27T08:50:41Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="testMultiForm" duration-ms="3435" started-at="2016-12-27T19:46:58Z" finished-at="2016-12-27T19:47:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1209" started-at="2016-12-27T08:50:41Z" finished-at="2016-12-27T08:50:43Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@1a968a59]" name="afterMethod" is-config="true" duration-ms="1111" started-at="2016-12-27T19:47:01Z" finished-at="2016-12-27T19:47:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.TestMultiForm -->
+      <class name="tests.TestWebTable">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="9060" started-at="2016-12-27T19:47:03Z" finished-at="2016-12-27T19:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-12-27T19:47:03Z" finished-at="2016-12-27T19:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByFirstName" duration-ms="918" started-at="2016-12-27T19:47:12Z" finished-at="2016-12-27T19:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1282" started-at="2016-12-27T19:47:13Z" finished-at="2016-12-27T19:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="7906" started-at="2016-12-27T19:47:14Z" finished-at="2016-12-27T19:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByFirstName" duration-ms="684" started-at="2016-12-27T19:47:22Z" finished-at="2016-12-27T19:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1322" started-at="2016-12-27T19:47:22Z" finished-at="2016-12-27T19:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="7428" started-at="2016-12-27T19:47:24Z" finished-at="2016-12-27T19:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByFirstName" duration-ms="662" started-at="2016-12-27T19:47:31Z" finished-at="2016-12-27T19:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1227" started-at="2016-12-27T19:47:32Z" finished-at="2016-12-27T19:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="7229" started-at="2016-12-27T19:47:33Z" finished-at="2016-12-27T19:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByFirstName" duration-ms="762" started-at="2016-12-27T19:47:40Z" finished-at="2016-12-27T19:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1154" started-at="2016-12-27T19:47:41Z" finished-at="2016-12-27T19:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="7535" started-at="2016-12-27T19:47:42Z" finished-at="2016-12-27T19:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByFirstName" duration-ms="807" started-at="2016-12-27T19:47:50Z" finished-at="2016-12-27T19:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1191" started-at="2016-12-27T19:47:51Z" finished-at="2016-12-27T19:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="6541" started-at="2016-12-27T19:47:52Z" finished-at="2016-12-27T19:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByFirstName" duration-ms="813" started-at="2016-12-27T19:47:58Z" finished-at="2016-12-27T19:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1094" started-at="2016-12-27T19:47:59Z" finished-at="2016-12-27T19:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="9272" started-at="2016-12-27T19:48:00Z" finished-at="2016-12-27T19:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByLastName" duration-ms="1094" started-at="2016-12-27T19:48:09Z" finished-at="2016-12-27T19:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1234" started-at="2016-12-27T19:48:11Z" finished-at="2016-12-27T19:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="10086" started-at="2016-12-27T19:48:12Z" finished-at="2016-12-27T19:48:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByLastName" duration-ms="748" started-at="2016-12-27T19:48:22Z" finished-at="2016-12-27T19:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1231" started-at="2016-12-27T19:48:23Z" finished-at="2016-12-27T19:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="7042" started-at="2016-12-27T19:48:24Z" finished-at="2016-12-27T19:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByLastName" duration-ms="677" started-at="2016-12-27T19:48:31Z" finished-at="2016-12-27T19:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1167" started-at="2016-12-27T19:48:32Z" finished-at="2016-12-27T19:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="7571" started-at="2016-12-27T19:48:33Z" finished-at="2016-12-27T19:48:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByLastName" duration-ms="954" started-at="2016-12-27T19:48:40Z" finished-at="2016-12-27T19:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1197" started-at="2016-12-27T19:48:41Z" finished-at="2016-12-27T19:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="6884" started-at="2016-12-27T19:48:42Z" finished-at="2016-12-27T19:48:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByLastName" duration-ms="1614" started-at="2016-12-27T19:48:49Z" finished-at="2016-12-27T19:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1184" started-at="2016-12-27T19:48:51Z" finished-at="2016-12-27T19:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@548e7350]" name="beforeMethod" is-config="true" duration-ms="7141" started-at="2016-12-27T19:48:52Z" finished-at="2016-12-27T19:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@548e7350]" name="testSearchByLastName" duration-ms="1498" started-at="2016-12-27T19:48:59Z" finished-at="2016-12-27T19:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@548e7350]" name="afterMethod" is-config="true" duration-ms="1329" started-at="2016-12-27T19:49:01Z" finished-at="2016-12-27T19:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestWebTable -->
     </test> <!-- ChromeTest -->
-    <test name="IETest" duration-ms="95240" started-at="2016-12-27T07:50:43Z" finished-at="2016-12-27T07:52:18Z">
+    <test name="IETest" duration-ms="189428" started-at="2016-12-27T18:49:02Z" finished-at="2016-12-27T18:52:12Z">
       <class name="tests.TestMultiForm">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-12-27T08:50:43Z" finished-at="2016-12-27T08:50:43Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-12-27T19:49:02Z" finished-at="2016-12-27T19:49:02Z">
           <params>
             <param index="0">
               <value>
@@ -276,7 +758,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="17348" started-at="2016-12-27T08:50:43Z" finished-at="2016-12-27T08:51:00Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="3440" started-at="2016-12-27T19:49:02Z" finished-at="2016-12-27T19:49:06Z">
           <params>
             <param index="0">
               <value>
@@ -287,15 +769,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="8274" started-at="2016-12-27T08:51:00Z" finished-at="2016-12-27T08:51:08Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="testMultiForm" duration-ms="6688" started-at="2016-12-27T19:49:06Z" finished-at="2016-12-27T19:49:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="2074" started-at="2016-12-27T08:51:08Z" finished-at="2016-12-27T08:51:10Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="afterMethod" is-config="true" duration-ms="2325" started-at="2016-12-27T19:49:12Z" finished-at="2016-12-27T19:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3506" started-at="2016-12-27T08:51:10Z" finished-at="2016-12-27T08:51:14Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="3468" started-at="2016-12-27T19:49:15Z" finished-at="2016-12-27T19:49:18Z">
           <params>
             <param index="0">
               <value>
@@ -306,15 +788,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="7481" started-at="2016-12-27T08:51:14Z" finished-at="2016-12-27T08:51:21Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="testMultiForm" duration-ms="5345" started-at="2016-12-27T19:49:18Z" finished-at="2016-12-27T19:49:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1644" started-at="2016-12-27T08:51:21Z" finished-at="2016-12-27T08:51:23Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="afterMethod" is-config="true" duration-ms="2419" started-at="2016-12-27T19:49:23Z" finished-at="2016-12-27T19:49:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="2995" started-at="2016-12-27T08:51:23Z" finished-at="2016-12-27T08:51:26Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="3830" started-at="2016-12-27T19:49:26Z" finished-at="2016-12-27T19:49:30Z">
           <params>
             <param index="0">
               <value>
@@ -325,15 +807,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="6594" started-at="2016-12-27T08:51:26Z" finished-at="2016-12-27T08:51:33Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="testMultiForm" duration-ms="6592" started-at="2016-12-27T19:49:30Z" finished-at="2016-12-27T19:49:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1393" started-at="2016-12-27T08:51:33Z" finished-at="2016-12-27T08:51:34Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="afterMethod" is-config="true" duration-ms="2949" started-at="2016-12-27T19:49:36Z" finished-at="2016-12-27T19:49:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3033" started-at="2016-12-27T08:51:34Z" finished-at="2016-12-27T08:51:37Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="3799" started-at="2016-12-27T19:49:39Z" finished-at="2016-12-27T19:49:43Z">
           <params>
             <param index="0">
               <value>
@@ -344,15 +826,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="7541" started-at="2016-12-27T08:51:37Z" finished-at="2016-12-27T08:51:45Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="testMultiForm" duration-ms="5699" started-at="2016-12-27T19:49:43Z" finished-at="2016-12-27T19:49:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="2128" started-at="2016-12-27T08:51:45Z" finished-at="2016-12-27T08:51:47Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="afterMethod" is-config="true" duration-ms="2603" started-at="2016-12-27T19:49:49Z" finished-at="2016-12-27T19:49:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="4924" started-at="2016-12-27T08:51:47Z" finished-at="2016-12-27T08:51:52Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="3667" started-at="2016-12-27T19:49:51Z" finished-at="2016-12-27T19:49:55Z">
           <params>
             <param index="0">
               <value>
@@ -363,15 +845,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="8940" started-at="2016-12-27T08:51:52Z" finished-at="2016-12-27T08:52:01Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="testMultiForm" duration-ms="6062" started-at="2016-12-27T19:49:55Z" finished-at="2016-12-27T19:50:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1310" started-at="2016-12-27T08:52:01Z" finished-at="2016-12-27T08:52:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="afterMethod" is-config="true" duration-ms="2238" started-at="2016-12-27T19:50:01Z" finished-at="2016-12-27T19:50:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="4770" started-at="2016-12-27T08:52:02Z" finished-at="2016-12-27T08:52:07Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="3715" started-at="2016-12-27T19:50:03Z" finished-at="2016-12-27T19:50:07Z">
           <params>
             <param index="0">
               <value>
@@ -382,15 +864,256 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="8715" started-at="2016-12-27T08:52:07Z" finished-at="2016-12-27T08:52:15Z">
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="testMultiForm" duration-ms="6917" started-at="2016-12-27T19:50:07Z" finished-at="2016-12-27T19:50:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiForm -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="2553" started-at="2016-12-27T08:52:15Z" finished-at="2016-12-27T08:52:18Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@6eebc39e]" name="afterMethod" is-config="true" duration-ms="2373" started-at="2016-12-27T19:50:14Z" finished-at="2016-12-27T19:50:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.TestMultiForm -->
+      <class name="tests.TestWebTable">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-12-27T19:50:16Z" finished-at="2016-12-27T19:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="7992" started-at="2016-12-27T19:50:16Z" finished-at="2016-12-27T19:50:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByFirstName" duration-ms="1903" started-at="2016-12-27T19:50:24Z" finished-at="2016-12-27T19:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2043" started-at="2016-12-27T19:50:26Z" finished-at="2016-12-27T19:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="5182" started-at="2016-12-27T19:50:28Z" finished-at="2016-12-27T19:50:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByFirstName" duration-ms="1996" started-at="2016-12-27T19:50:33Z" finished-at="2016-12-27T19:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2122" started-at="2016-12-27T19:50:35Z" finished-at="2016-12-27T19:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="4838" started-at="2016-12-27T19:50:38Z" finished-at="2016-12-27T19:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByFirstName" duration-ms="1747" started-at="2016-12-27T19:50:42Z" finished-at="2016-12-27T19:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2184" started-at="2016-12-27T19:50:44Z" finished-at="2016-12-27T19:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="5447" started-at="2016-12-27T19:50:46Z" finished-at="2016-12-27T19:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByFirstName" duration-ms="1716" started-at="2016-12-27T19:50:52Z" finished-at="2016-12-27T19:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2215" started-at="2016-12-27T19:50:53Z" finished-at="2016-12-27T19:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="5194" started-at="2016-12-27T19:50:56Z" finished-at="2016-12-27T19:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByFirstName" duration-ms="2122" started-at="2016-12-27T19:51:01Z" finished-at="2016-12-27T19:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2277" started-at="2016-12-27T19:51:03Z" finished-at="2016-12-27T19:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="5369" started-at="2016-12-27T19:51:05Z" finished-at="2016-12-27T19:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByFirstName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByFirstName" duration-ms="2137" started-at="2016-12-27T19:51:11Z" finished-at="2016-12-27T19:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2387" started-at="2016-12-27T19:51:13Z" finished-at="2016-12-27T19:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="5212" started-at="2016-12-27T19:51:15Z" finished-at="2016-12-27T19:51:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByLastName" duration-ms="2527" started-at="2016-12-27T19:51:20Z" finished-at="2016-12-27T19:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2356" started-at="2016-12-27T19:51:23Z" finished-at="2016-12-27T19:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="5134" started-at="2016-12-27T19:51:25Z" finished-at="2016-12-27T19:51:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByLastName" duration-ms="1935" started-at="2016-12-27T19:51:30Z" finished-at="2016-12-27T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="1575" started-at="2016-12-27T19:51:32Z" finished-at="2016-12-27T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="6071" started-at="2016-12-27T19:51:34Z" finished-at="2016-12-27T19:51:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByLastName" duration-ms="1560" started-at="2016-12-27T19:51:40Z" finished-at="2016-12-27T19:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2246" started-at="2016-12-27T19:51:42Z" finished-at="2016-12-27T19:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="5291" started-at="2016-12-27T19:51:44Z" finished-at="2016-12-27T19:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByLastName" duration-ms="2230" started-at="2016-12-27T19:51:49Z" finished-at="2016-12-27T19:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="2153" started-at="2016-12-27T19:51:51Z" finished-at="2016-12-27T19:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="4667" started-at="2016-12-27T19:51:53Z" finished-at="2016-12-27T19:51:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByLastName" duration-ms="2745" started-at="2016-12-27T19:51:58Z" finished-at="2016-12-27T19:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="1560" started-at="2016-12-27T19:52:01Z" finished-at="2016-12-27T19:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="5961" started-at="2016-12-27T19:52:02Z" finished-at="2016-12-27T19:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchByLastName()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="testSearchByLastName" duration-ms="1311" started-at="2016-12-27T19:52:08Z" finished-at="2016-12-27T19:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestWebTable@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="1872" started-at="2016-12-27T19:52:10Z" finished-at="2016-12-27T19:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestWebTable -->
     </test> <!-- IETest -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -32,7 +32,6 @@ public class FormPaymentPage {
 
 		alert = driver.switchTo().alert();
 		text = alert.getText();
-		System.out.println(text);
 		return text;
 	}
 	
