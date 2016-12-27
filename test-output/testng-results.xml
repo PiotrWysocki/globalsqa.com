@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="305609" started-at="2016-12-27T07:47:12Z" finished-at="2016-12-27T07:52:18Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="127111" started-at="2016-12-27T07:47:12Z" finished-at="2016-12-27T07:49:19Z">
+      <class name="tests.TestMultiForm">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeClass" is-config="true" duration-ms="34" started-at="2016-12-27T08:47:12Z" finished-at="2016-12-27T08:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="38660" started-at="2016-12-27T08:47:12Z" finished-at="2016-12-27T08:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="3653" started-at="2016-12-27T08:47:51Z" finished-at="2016-12-27T08:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="4568" started-at="2016-12-27T08:47:55Z" finished-at="2016-12-27T08:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="12517" started-at="2016-12-27T08:47:59Z" finished-at="2016-12-27T08:48:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="3188" started-at="2016-12-27T08:48:12Z" finished-at="2016-12-27T08:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2214" started-at="2016-12-27T08:48:15Z" finished-at="2016-12-27T08:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="10557" started-at="2016-12-27T08:48:17Z" finished-at="2016-12-27T08:48:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="2682" started-at="2016-12-27T08:48:28Z" finished-at="2016-12-27T08:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2149" started-at="2016-12-27T08:48:30Z" finished-at="2016-12-27T08:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="12476" started-at="2016-12-27T08:48:33Z" finished-at="2016-12-27T08:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="2676" started-at="2016-12-27T08:48:45Z" finished-at="2016-12-27T08:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2321" started-at="2016-12-27T08:48:48Z" finished-at="2016-12-27T08:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="9434" started-at="2016-12-27T08:48:50Z" finished-at="2016-12-27T08:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="2958" started-at="2016-12-27T08:48:59Z" finished-at="2016-12-27T08:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2206" started-at="2016-12-27T08:49:02Z" finished-at="2016-12-27T08:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@d8355a8]" name="beforeMethod" is-config="true" duration-ms="10038" started-at="2016-12-27T08:49:05Z" finished-at="2016-12-27T08:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="testMultiForm" duration-ms="2714" started-at="2016-12-27T08:49:15Z" finished-at="2016-12-27T08:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@d8355a8]" name="afterMethod" is-config="true" duration-ms="2020" started-at="2016-12-27T08:49:17Z" finished-at="2016-12-27T08:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestMultiForm -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="83046" started-at="2016-12-27T07:49:20Z" finished-at="2016-12-27T07:50:43Z">
+      <class name="tests.TestMultiForm">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-12-27T08:49:20Z" finished-at="2016-12-27T08:49:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="18679" started-at="2016-12-27T08:49:20Z" finished-at="2016-12-27T08:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="5207" started-at="2016-12-27T08:49:38Z" finished-at="2016-12-27T08:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1527" started-at="2016-12-27T08:49:44Z" finished-at="2016-12-27T08:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="6507" started-at="2016-12-27T08:49:45Z" finished-at="2016-12-27T08:49:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3917" started-at="2016-12-27T08:49:52Z" finished-at="2016-12-27T08:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1307" started-at="2016-12-27T08:49:55Z" finished-at="2016-12-27T08:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="5489" started-at="2016-12-27T08:49:57Z" finished-at="2016-12-27T08:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3882" started-at="2016-12-27T08:50:02Z" finished-at="2016-12-27T08:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1537" started-at="2016-12-27T08:50:06Z" finished-at="2016-12-27T08:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="5698" started-at="2016-12-27T08:50:08Z" finished-at="2016-12-27T08:50:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3602" started-at="2016-12-27T08:50:13Z" finished-at="2016-12-27T08:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1404" started-at="2016-12-27T08:50:17Z" finished-at="2016-12-27T08:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="6687" started-at="2016-12-27T08:50:18Z" finished-at="2016-12-27T08:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3942" started-at="2016-12-27T08:50:25Z" finished-at="2016-12-27T08:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1501" started-at="2016-12-27T08:50:29Z" finished-at="2016-12-27T08:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@53b32d7]" name="beforeMethod" is-config="true" duration-ms="6937" started-at="2016-12-27T08:50:31Z" finished-at="2016-12-27T08:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="testMultiForm" duration-ms="3988" started-at="2016-12-27T08:50:37Z" finished-at="2016-12-27T08:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@53b32d7]" name="afterMethod" is-config="true" duration-ms="1209" started-at="2016-12-27T08:50:41Z" finished-at="2016-12-27T08:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestMultiForm -->
+    </test> <!-- ChromeTest -->
+    <test name="IETest" duration-ms="95240" started-at="2016-12-27T07:50:43Z" finished-at="2016-12-27T07:52:18Z">
+      <class name="tests.TestMultiForm">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-12-27T08:50:43Z" finished-at="2016-12-27T08:50:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="17348" started-at="2016-12-27T08:50:43Z" finished-at="2016-12-27T08:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="8274" started-at="2016-12-27T08:51:00Z" finished-at="2016-12-27T08:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="2074" started-at="2016-12-27T08:51:08Z" finished-at="2016-12-27T08:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3506" started-at="2016-12-27T08:51:10Z" finished-at="2016-12-27T08:51:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="7481" started-at="2016-12-27T08:51:14Z" finished-at="2016-12-27T08:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1644" started-at="2016-12-27T08:51:21Z" finished-at="2016-12-27T08:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="2995" started-at="2016-12-27T08:51:23Z" finished-at="2016-12-27T08:51:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="6594" started-at="2016-12-27T08:51:26Z" finished-at="2016-12-27T08:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1393" started-at="2016-12-27T08:51:33Z" finished-at="2016-12-27T08:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3033" started-at="2016-12-27T08:51:34Z" finished-at="2016-12-27T08:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="7541" started-at="2016-12-27T08:51:37Z" finished-at="2016-12-27T08:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="2128" started-at="2016-12-27T08:51:45Z" finished-at="2016-12-27T08:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="4924" started-at="2016-12-27T08:51:47Z" finished-at="2016-12-27T08:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="8940" started-at="2016-12-27T08:51:52Z" finished-at="2016-12-27T08:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1310" started-at="2016-12-27T08:52:01Z" finished-at="2016-12-27T08:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="4770" started-at="2016-12-27T08:52:02Z" finished-at="2016-12-27T08:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMultiForm()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="testMultiForm" duration-ms="8715" started-at="2016-12-27T08:52:07Z" finished-at="2016-12-27T08:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiForm -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestMultiForm@e25b2fe]" name="afterMethod" is-config="true" duration-ms="2553" started-at="2016-12-27T08:52:15Z" finished-at="2016-12-27T08:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestMultiForm -->
+    </test> <!-- IETest -->
+  </suite> <!-- Suite -->
+</testng-results>
