@@ -2,36 +2,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <parameter name="browser" value="ie"/>
-  <test name="IETest(failed)">
-    <parameter name="browser" value="ie"/>
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.TestWebTable">
+      <class name="tests.TestSearchFilter">
         <methods>
-          <include name="testSearchByLastName"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="TestSearchByAccountAndExpenditurePayee"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- tests.TestWebTable -->
-      <class name="tests.TestMultiForm">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="afterMethod"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- tests.TestMultiForm -->
+      </class> <!-- tests.TestSearchFilter -->
     </classes>
-  </test> <!-- IETest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
