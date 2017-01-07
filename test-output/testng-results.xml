@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="18" passed="17">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="185488" started-at="2016-12-29T16:47:22Z" finished-at="2016-12-29T16:50:27Z">
+  <suite name="Suite" duration-ms="80486" started-at="2017-01-07T09:21:21Z" finished-at="2017-01-07T09:22:42Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="82498" started-at="2016-12-29T16:47:22Z" finished-at="2016-12-29T16:48:44Z">
-      <class name="tests.TestSearchFilter">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="beforeClass" is-config="true" duration-ms="16" started-at="2016-12-29T17:47:22Z" finished-at="2016-12-29T17:47:22Z">
+    <test name="FirefoxTest" duration-ms="40615" started-at="2017-01-07T09:21:21Z" finished-at="2017-01-07T09:22:02Z">
+      <class name="tests.TestScrollable">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestScrollable@d8355a8]" name="beforeClass" is-config="true" duration-ms="91" started-at="2017-01-07T10:21:22Z" finished-at="2017-01-07T10:21:22Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="beforeMethod" is-config="true" duration-ms="13377" started-at="2016-12-29T17:47:22Z" finished-at="2016-12-29T17:47:35Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestScrollable@d8355a8]" name="beforeMethod" is-config="true" duration-ms="17188" started-at="2017-01-07T10:21:22Z" finished-at="2017-01-07T10:21:39Z">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="719" started-at="2016-12-29T17:47:35Z" finished-at="2016-12-29T17:47:36Z">
+        <test-method status="PASS" signature="TestScrollableDown()[pri:0, instance:tests.TestScrollable@d8355a8]" name="TestScrollableDown" duration-ms="464" started-at="2017-01-07T10:21:39Z" finished-at="2017-01-07T10:21:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="afterMethod" is-config="true" duration-ms="2331" started-at="2016-12-29T17:47:36Z" finished-at="2016-12-29T17:47:38Z">
+        </test-method> <!-- TestScrollableDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestScrollable@d8355a8]" name="afterMethod" is-config="true" duration-ms="3684" started-at="2017-01-07T10:21:39Z" finished-at="2017-01-07T10:21:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="beforeMethod" is-config="true" duration-ms="11255" started-at="2016-12-29T17:47:38Z" finished-at="2016-12-29T17:47:50Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestScrollable@d8355a8]" name="beforeMethod" is-config="true" duration-ms="16541" started-at="2017-01-07T10:21:43Z" finished-at="2017-01-07T10:21:59Z">
           <params>
             <param index="0">
               <value>
@@ -48,95 +48,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="380" started-at="2016-12-29T17:47:50Z" finished-at="2016-12-29T17:47:50Z">
+        <test-method status="PASS" signature="TestScrollableDownAndUp()[pri:0, instance:tests.TestScrollable@d8355a8]" name="TestScrollableDownAndUp" duration-ms="397" started-at="2017-01-07T10:21:59Z" finished-at="2017-01-07T10:22:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="afterMethod" is-config="true" duration-ms="2035" started-at="2016-12-29T17:47:50Z" finished-at="2016-12-29T17:47:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="beforeMethod" is-config="true" duration-ms="10916" started-at="2016-12-29T17:47:52Z" finished-at="2016-12-29T17:48:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="537" started-at="2016-12-29T17:48:03Z" finished-at="2016-12-29T17:48:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="afterMethod" is-config="true" duration-ms="2084" started-at="2016-12-29T17:48:03Z" finished-at="2016-12-29T17:48:06Z">
+        </test-method> <!-- TestScrollableDownAndUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestScrollable@d8355a8]" name="afterMethod" is-config="true" duration-ms="2097" started-at="2017-01-07T10:22:00Z" finished-at="2017-01-07T10:22:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="beforeMethod" is-config="true" duration-ms="10835" started-at="2016-12-29T17:48:06Z" finished-at="2016-12-29T17:48:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="318" started-at="2016-12-29T17:48:16Z" finished-at="2016-12-29T17:48:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="afterMethod" is-config="true" duration-ms="1914" started-at="2016-12-29T17:48:17Z" finished-at="2016-12-29T17:48:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="beforeMethod" is-config="true" duration-ms="9756" started-at="2016-12-29T17:48:19Z" finished-at="2016-12-29T17:48:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="301" started-at="2016-12-29T17:48:28Z" finished-at="2016-12-29T17:48:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="afterMethod" is-config="true" duration-ms="2055" started-at="2016-12-29T17:48:29Z" finished-at="2016-12-29T17:48:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="beforeMethod" is-config="true" duration-ms="11261" started-at="2016-12-29T17:48:31Z" finished-at="2016-12-29T17:48:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="283" started-at="2016-12-29T17:48:42Z" finished-at="2016-12-29T17:48:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@d8355a8]" name="afterMethod" is-config="true" duration-ms="2074" started-at="2016-12-29T17:48:42Z" finished-at="2016-12-29T17:48:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- tests.TestSearchFilter -->
+      </class> <!-- tests.TestScrollable -->
     </test> <!-- FirefoxTest -->
-    <test name="ChromeTest" duration-ms="66664" started-at="2016-12-29T16:48:44Z" finished-at="2016-12-29T16:49:51Z">
-      <class name="tests.TestSearchFilter">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-12-29T17:48:44Z" finished-at="2016-12-29T17:48:44Z">
+    <test name="ChromeTest" duration-ms="24672" started-at="2017-01-07T09:22:02Z" finished-at="2017-01-07T09:22:27Z">
+      <class name="tests.TestScrollable">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestScrollable@53b32d7]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-01-07T10:22:02Z" finished-at="2017-01-07T10:22:02Z">
           <params>
             <param index="0">
               <value>
@@ -147,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="beforeMethod" is-config="true" duration-ms="10334" started-at="2016-12-29T17:48:44Z" finished-at="2016-12-29T17:48:55Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestScrollable@53b32d7]" name="beforeMethod" is-config="true" duration-ms="13344" started-at="2017-01-07T10:22:02Z" finished-at="2017-01-07T10:22:16Z">
           <params>
             <param index="0">
               <value>
@@ -158,15 +82,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="610" started-at="2016-12-29T17:48:55Z" finished-at="2016-12-29T17:48:55Z">
+        <test-method status="PASS" signature="TestScrollableDown()[pri:0, instance:tests.TestScrollable@53b32d7]" name="TestScrollableDown" duration-ms="1410" started-at="2017-01-07T10:22:16Z" finished-at="2017-01-07T10:22:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="afterMethod" is-config="true" duration-ms="1324" started-at="2016-12-29T17:48:55Z" finished-at="2016-12-29T17:48:57Z">
+        </test-method> <!-- TestScrollableDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestScrollable@53b32d7]" name="afterMethod" is-config="true" duration-ms="1213" started-at="2017-01-07T10:22:17Z" finished-at="2017-01-07T10:22:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="beforeMethod" is-config="true" duration-ms="5248" started-at="2016-12-29T17:48:57Z" finished-at="2016-12-29T17:49:02Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestScrollable@53b32d7]" name="beforeMethod" is-config="true" duration-ms="7153" started-at="2017-01-07T10:22:18Z" finished-at="2017-01-07T10:22:25Z">
           <params>
             <param index="0">
               <value>
@@ -177,141 +101,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="10599" started-at="2016-12-29T17:49:02Z" finished-at="2016-12-29T17:49:12Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.xpath: .//tr[(td[4 and text() = 'PowerBill']) and (td[2 and text() = 'Cash'])] (tried for 7 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Piotrek-HP', ip: '192.168.1.128', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\Piotrek\AppData\Local\Temp\scoped_dir4752_9950}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: cbe7601f8a66f618b7b91edaae08992f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: .//tr[(td[4 and text() = 'PowerBill']) and (td[2 and text() = 'Cash'])] (tried for 7 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Piotrek-HP', ip: '192.168.1.128', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\Piotrek\AppData\Local\Temp\scoped_dir4752_9950}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: cbe7601f8a66f618b7b91edaae08992f
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265)
-	at tests.TestSearchFilter.TestSearchByAccountAndExpenditurePayee(TestSearchFilter.java:105)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="TestScrollableDownAndUp()[pri:0, instance:tests.TestScrollable@53b32d7]" name="TestScrollableDownAndUp" duration-ms="327" started-at="2017-01-07T10:22:25Z" finished-at="2017-01-07T10:22:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="afterMethod" is-config="true" duration-ms="1258" started-at="2016-12-29T17:49:13Z" finished-at="2016-12-29T17:49:14Z">
+        </test-method> <!-- TestScrollableDownAndUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestScrollable@53b32d7]" name="afterMethod" is-config="true" duration-ms="1216" started-at="2017-01-07T10:22:26Z" finished-at="2017-01-07T10:22:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="beforeMethod" is-config="true" duration-ms="7000" started-at="2016-12-29T17:49:14Z" finished-at="2016-12-29T17:49:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="705" started-at="2016-12-29T17:49:21Z" finished-at="2016-12-29T17:49:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="afterMethod" is-config="true" duration-ms="1266" started-at="2016-12-29T17:49:21Z" finished-at="2016-12-29T17:49:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="beforeMethod" is-config="true" duration-ms="7040" started-at="2016-12-29T17:49:23Z" finished-at="2016-12-29T17:49:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="889" started-at="2016-12-29T17:49:30Z" finished-at="2016-12-29T17:49:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="afterMethod" is-config="true" duration-ms="1267" started-at="2016-12-29T17:49:31Z" finished-at="2016-12-29T17:49:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="beforeMethod" is-config="true" duration-ms="6995" started-at="2016-12-29T17:49:32Z" finished-at="2016-12-29T17:49:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="832" started-at="2016-12-29T17:49:39Z" finished-at="2016-12-29T17:49:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="afterMethod" is-config="true" duration-ms="2463" started-at="2016-12-29T17:49:40Z" finished-at="2016-12-29T17:49:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="beforeMethod" is-config="true" duration-ms="6732" started-at="2016-12-29T17:49:42Z" finished-at="2016-12-29T17:49:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="782" started-at="2016-12-29T17:49:49Z" finished-at="2016-12-29T17:49:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@53b32d7]" name="afterMethod" is-config="true" duration-ms="1287" started-at="2016-12-29T17:49:50Z" finished-at="2016-12-29T17:49:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- tests.TestSearchFilter -->
+      </class> <!-- tests.TestScrollable -->
     </test> <!-- ChromeTest -->
-    <test name="IETest" duration-ms="36236" started-at="2016-12-29T16:49:51Z" finished-at="2016-12-29T16:50:27Z">
-      <class name="tests.TestSearchFilter">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-12-29T17:49:51Z" finished-at="2016-12-29T17:49:51Z">
+    <test name="IETest" duration-ms="14979" started-at="2017-01-07T09:22:27Z" finished-at="2017-01-07T09:22:42Z">
+      <class name="tests.TestScrollable">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestScrollable@e25b2fe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-01-07T10:22:27Z" finished-at="2017-01-07T10:22:27Z">
           <params>
             <param index="0">
               <value>
@@ -322,7 +124,7 @@ Session ID: cbe7601f8a66f618b7b91edaae08992f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="4224" started-at="2016-12-29T17:49:51Z" finished-at="2016-12-29T17:49:55Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestScrollable@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="8681" started-at="2017-01-07T10:22:27Z" finished-at="2017-01-07T10:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -333,15 +135,15 @@ Session ID: cbe7601f8a66f618b7b91edaae08992f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="1547" started-at="2016-12-29T17:49:55Z" finished-at="2016-12-29T17:49:57Z">
+        <test-method status="PASS" signature="TestScrollableDown()[pri:0, instance:tests.TestScrollable@e25b2fe]" name="TestScrollableDown" duration-ms="428" started-at="2017-01-07T10:22:36Z" finished-at="2017-01-07T10:22:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1102" started-at="2016-12-29T17:49:57Z" finished-at="2016-12-29T17:49:58Z">
+        </test-method> <!-- TestScrollableDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestScrollable@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1034" started-at="2017-01-07T10:22:36Z" finished-at="2017-01-07T10:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3711" started-at="2016-12-29T17:49:58Z" finished-at="2016-12-29T17:50:02Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestScrollable@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3135" started-at="2017-01-07T10:22:37Z" finished-at="2017-01-07T10:22:40Z">
           <params>
             <param index="0">
               <value>
@@ -352,91 +154,15 @@ Session ID: cbe7601f8a66f618b7b91edaae08992f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="1583" started-at="2016-12-29T17:50:02Z" finished-at="2016-12-29T17:50:03Z">
+        <test-method status="PASS" signature="TestScrollableDownAndUp()[pri:0, instance:tests.TestScrollable@e25b2fe]" name="TestScrollableDownAndUp" duration-ms="658" started-at="2017-01-07T10:22:40Z" finished-at="2017-01-07T10:22:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="afterMethod" is-config="true" duration-ms="990" started-at="2016-12-29T17:50:03Z" finished-at="2016-12-29T17:50:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3188" started-at="2016-12-29T17:50:04Z" finished-at="2016-12-29T17:50:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="1470" started-at="2016-12-29T17:50:07Z" finished-at="2016-12-29T17:50:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1020" started-at="2016-12-29T17:50:09Z" finished-at="2016-12-29T17:50:10Z">
+        </test-method> <!-- TestScrollableDownAndUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestScrollable@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1022" started-at="2017-01-07T10:22:41Z" finished-at="2017-01-07T10:22:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3065" started-at="2016-12-29T17:50:10Z" finished-at="2016-12-29T17:50:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="1636" started-at="2016-12-29T17:50:13Z" finished-at="2016-12-29T17:50:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="afterMethod" is-config="true" duration-ms="998" started-at="2016-12-29T17:50:15Z" finished-at="2016-12-29T17:50:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3245" started-at="2016-12-29T17:50:16Z" finished-at="2016-12-29T17:50:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="1535" started-at="2016-12-29T17:50:19Z" finished-at="2016-12-29T17:50:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1103" started-at="2016-12-29T17:50:20Z" finished-at="2016-12-29T17:50:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="3152" started-at="2016-12-29T17:50:22Z" finished-at="2016-12-29T17:50:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestSearchByAccountAndExpenditurePayee()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="TestSearchByAccountAndExpenditurePayee" duration-ms="1644" started-at="2016-12-29T17:50:25Z" finished-at="2016-12-29T17:50:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSearchByAccountAndExpenditurePayee -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSearchFilter@e25b2fe]" name="afterMethod" is-config="true" duration-ms="997" started-at="2016-12-29T17:50:26Z" finished-at="2016-12-29T17:50:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- tests.TestSearchFilter -->
+      </class> <!-- tests.TestScrollable -->
     </test> <!-- IETest -->
   </suite> <!-- Suite -->
 </testng-results>

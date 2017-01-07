@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <parameter name="browser" value="ie"/>
-  <test name="ChromeTest(failed)">
-    <parameter name="browser" value="chrome"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="tests.TestSearchFilter">
+      <class name="tests.TestScrollable">
         <methods>
+          <include name="TestScrollableDown"/>
           <include name="beforeMethod"/>
           <include name="beforeMethod"/>
           <include name="beforeMethod"/>
-          <include name="TestSearchByAccountAndExpenditurePayee"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
@@ -18,7 +18,45 @@
           <include name="beforeClass"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- tests.TestSearchFilter -->
+      </class> <!-- tests.TestScrollable -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.TestScrollable">
+        <methods>
+          <include name="TestScrollableDown"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TestScrollable -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
+  <test name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="tests.TestScrollable">
+        <methods>
+          <include name="TestScrollableDown"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TestScrollable -->
+    </classes>
+  </test> <!-- IETest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

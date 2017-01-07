@@ -6,6 +6,7 @@
       <class name="tests.TestMultiForm" />
       <class name="tests.TestWebTable" />
       <class name="tests.TestSearchFilter" />
+      <class name="tests.TestScrollable" />
     </classes>
   </test>
   <test name="ChromeTest">
@@ -14,6 +15,7 @@
       <class name="tests.TestMultiForm" />
       <class name="tests.TestWebTable" />
       <class name="tests.TestSearchFilter" />
+      <class name="tests.TestScrollable" />
     </classes>
   </test>
   <test name="IETest">
@@ -22,6 +24,7 @@
       <class name="tests.TestMultiForm" />
       <class name="tests.TestWebTable" />
       <class name="tests.TestSearchFilter" />
+      <class name="tests.TestScrollable" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
