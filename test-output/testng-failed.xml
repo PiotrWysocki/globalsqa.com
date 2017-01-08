@@ -5,58 +5,58 @@
   <test name="FirefoxTest(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="tests.TestScrollable">
+      <class name="tests.TestUploadImage">
         <methods>
-          <include name="TestScrollableDown"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
+          <include name="testUploadImage"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- tests.TestScrollable -->
+      </class> <!-- tests.TestUploadImage -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
   <test name="ChromeTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.TestScrollable">
+      <class name="tests.TestUploadImage">
         <methods>
-          <include name="TestScrollableDown"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
+          <include name="testUploadImage"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- tests.TestScrollable -->
+      </class> <!-- tests.TestUploadImage -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
   <test name="IETest(failed)">
     <parameter name="browser" value="ie"/>
     <classes>
-      <class name="tests.TestScrollable">
+      <class name="tests.TestUploadImage">
         <methods>
-          <include name="TestScrollableDown"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
+          <include name="testUploadImage"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- tests.TestScrollable -->
+      </class> <!-- tests.TestUploadImage -->
     </classes>
   </test> <!-- IETest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
